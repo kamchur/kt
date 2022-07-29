@@ -6,9 +6,6 @@ customer = [7, 5, 9]
 answer = []
 
 for i in customer:
-    if i in store:
-        answer.append('yes')
-    else:
-        answer.append('no')
+    answer.append('yes' if i in store else 'no')
     
 print(answer)
