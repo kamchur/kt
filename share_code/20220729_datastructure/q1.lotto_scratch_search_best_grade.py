@@ -6,6 +6,8 @@ win_nums = [31, 10, 45, 1, 6, 19]
 
 count = 0
 
+# + 선생님 
+# rank = [6, 6, 5, 4, 3, 2, 1] 인덱스로 등수를 표출하는 방법도 있음
 def grade(cnt):
     grade = 6
     if cnt == 6:
@@ -33,7 +35,7 @@ for i in lottos:
 print(f'{zero_cnt + count}개 번호 일치, {grade(zero_cnt + count)}등')
 print(f'{count}개 번호 일치, {grade(count)}등')
 
-```
+'''
 4개 번호 일치, 3등
 2개 번호 일치, 5등
-```
+'''
