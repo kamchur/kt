@@ -32,3 +32,8 @@ for i in lottos:
 
 print(f'{zero_cnt + count}개 번호 일치, {grade(zero_cnt + count)}등')
 print(f'{count}개 번호 일치, {grade(count)}등')
+
+```
+4개 번호 일치, 3등
+2개 번호 일치, 5등
+```
